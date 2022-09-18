@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 5</title>
+  </head>
+  <body>
+    <div class="conteneur">
+      <img onmouseover="BigImg()" src="image1.jpg" id="image1" onmouseout="MO()" />
+      <img onmouseover="BigImg1()" src="image2.jpg" id="image2" onmouseout="MO1()"  />
+      <img onmouseover="BigImg2()" src="image3.jpg" id="image3" onmouseout="MO2()"/>
+      <img onmouseover="BigImg3()" src="image4.jpg" id="image4" onmouseout="MO3()"/>
+      <img onmouseover="BigImg4()" src="image5.jpg" id="image5" onmouseout="MO4()"/>
+    </div>
+  </body>
+  <script>
+    function BigImg() {
+    document.getElementById("image1") .src="image1_2.jpg";
+    }
+    function BigImg1() {
+    document.getElementById("image2") .src="image2_2.jpg";
+    }
+    function BigImg2() {
+    document.getElementById("image3") .src="image3_2.jpg";
+    }
+    function BigImg3() {
+    document.getElementById("image4") .src="image4_2.jpg";
+    }
+    function BigImg4() {
+    document.getElementById("image5") .src="image5_2.jpg";
+    }
+    function MO() {
+            document.getElementById("image1") .src="image1.jpg";
+    }
+    function MO1() {
+            document.getElementById("image2") .src="image2.jpg";
+        }    
+    function MO2() {
+            document.getElementById("image3") .src="image3.jpg";
+    }
+    function MO3() {
+            document.getElementById("image4") .src="image4.jpg";
+    }
+    function MO4() {
+            document.getElementById("image5") .src="image5.jpg";
+        }
+</script>
+</html>
